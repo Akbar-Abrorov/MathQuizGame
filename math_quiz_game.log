@@ -1,3 +1,14 @@
 2025-02-05 19:18:40,261 - INFO - APP STARTED
 2025-02-05 19:19:06,378 - INFO - APP STARTED
 2025-02-05 19:20:21,950 - INFO - APP STARTED
+2025-02-05 22:42:51,521 - INFO - APP STARTED
+2025-02-05 22:44:10,226 - INFO - APP STARTED
+2025-02-05 22:44:36,937 - INFO - APP STARTED
+2025-02-05 22:44:36,941 - INFO - Service 'Math Quiz Game' has started!
+2025-02-05 22:44:48,777 - INFO - Generated question: 19 - 18, Answer: 1
+2025-02-05 22:45:15,939 - INFO - Generated question: 2 - 17, Answer: -15
+2025-02-05 22:45:15,939 - INFO - Wrong! Akbar lost points. New balance: 295.
+2025-02-05 22:46:10,750 - INFO - Generated question: 17 + 5, Answer: 22
+2025-02-05 22:46:29,267 - INFO - Generated question: 9 - 1, Answer: 8
+2025-02-05 22:46:29,268 - INFO - Wrong! Akbar lost points. New balance: 240.
+2025-02-05 22:46:42,846 - INFO - Service 'Math Quiz Game' has stopped!

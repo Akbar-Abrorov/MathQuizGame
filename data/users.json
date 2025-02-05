@@ -1,10 +1,11 @@
 [
-  {
-    "id": 1,
-    "name": "Akbar",
-    "points": 300,
-    "items": {
-      "hint": 1
+    {
+        "id": 1,
+        "name": "Akbar",
+        "points": 240,
+        "items": {
+            "hint": 1,
+            "Hint": 1
+        }
     }
-  }
 ]
