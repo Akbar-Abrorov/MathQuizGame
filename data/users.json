@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Akbar",
+    "points": 300,
+    "items": {
+      "hint": 1
+    }
+  }
+]
