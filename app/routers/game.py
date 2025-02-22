@@ -8,5 +8,5 @@ def get_question(user_name: str):
     return generate_math_question(user_name)
 
 @router.post("/answer")
-def submit_answer(user_name: str, user_answer: float):
-    return check_answer(user_name, user_answer)
+def submit_answer(user_name: str,question_id:str, user_answer: float):
+    return check_answer(user_name,question_id, user_answer)
