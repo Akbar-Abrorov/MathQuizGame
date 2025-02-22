@@ -1,11 +1,4 @@
 [
-    {
-        "id": 1,
-        "name": "Akbar"
-        "points": 225,
-        "items": {
-            "hint": 1,
-            "Hint": 1
-        }
-    }
+    {"id": 1, "name": "Akbar", "points": 225, "items": {"Hint": 1, "Double Points": 0}, "double_points_active": false},
+    {"id": 2, "name": "Ulugbek", "points": 150, "items": {"Hint": 0, "Double Points": 1}, "double_points_active": false}
 ]
