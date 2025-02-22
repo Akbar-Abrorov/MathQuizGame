@@ -1,28 +1,30 @@
 import json
-from app.services.user_logic import get_user, update_user,load_users
+from app.services.user_logic import get_user, update_user
+from fastapi import HTTPException
+from cfg.logger import logger
 
-
-def load_items():
-    with open("data/items.json", "r") as file:
-        return json.load(file)
-
+shop_items = {
+    "Hint": {"price": 30, "effect": "Gives a hint for the next question"},
+    "Double Points": {"price": 50, "effect": "Doubles points for the next correct answer"}
+}
 
 def buy_item(user_name: str, item_name: str):
-    users = load_users()
     user = get_user(user_name)
     if not user:
-        return {"success": False, "message": "User not found"}
+        raise HTTPException(status_code=400, detail="User not found")
 
-    items = load_items()
-    item = next((i for i in items if i["name"].lower() == item_name.lower()), None)
-
+    item = shop_items.get(item_name)
     if not item:
-        return {"success": False, "message": "Item not found"}
+        raise HTTPException(status_code=400, detail="Item not found")
+
     if user["points"] < item["price"]:
-        return {"success": False, "message": "Not enough points"}
+        raise HTTPException(status_code=400, detail="Not enough points to buy this item")
 
     user["points"] -= item["price"]
-    user["items"][item_name] = user["items"].get(item_name, 0) + 1
+    user["items"].append(item_name)
     update_user(user)
 
-    return {"success": True, "message": f"You bought {item_name}", "new_points": user["points"]}
+    message = f"{user_name} bought {item_name}! New balance: {user['points']} points."
+    logger.info(message)
+
+    return {"success": True, "message": message, "new_balance": user["points"]}
