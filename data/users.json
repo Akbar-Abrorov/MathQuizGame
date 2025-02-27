@@ -1,4 +1,33 @@
 [
-    {"id": 1, "name": "Akbar", "points": 225, "items": {"Hint": 1, "Double Points": 0}, "double_points_active": false},
-    {"id": 2, "name": "Ulugbek", "points": 150, "items": {"Hint": 0, "Double Points": 1}, "double_points_active": false}
+    {
+        "id": 1,
+        "name": "Akbar",
+        "points": 235,
+        "items": {
+            "Hint": 0,
+            "Double Points": 0
+        },
+        "double_points_active": false,
+        "questions": {
+            "q1": "42 - 11"
+        },
+        "answers": {
+            "q1": {
+                "answer": 31.0,
+                "correct": true
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ulugbek",
+        "points": 150,
+        "items": {
+            "Hint": 0,
+            "Double Points": 1
+        },
+        "double_points_active": false,
+        "questions": {},
+        "answers": {}
+    }
 ]

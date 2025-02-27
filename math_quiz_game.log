@@ -52,3 +52,25 @@
 2025-02-22 15:53:51,842 - INFO - Service 'Math Quiz Game' has stopped!
 2025-02-22 15:53:56,793 - INFO - APP STARTED
 2025-02-22 15:53:56,797 - INFO - Service 'Math Quiz Game' has started!
+2025-02-22 16:09:07,455 - INFO - Service 'Math Quiz Game' has stopped!
+2025-02-27 21:35:45,004 - MathQuizGame - ERROR - Failed to load shop_items.json: [Errno 2] No such file or directory: 'data/shop_items.json'
+2025-02-27 21:35:45,015 - MathQuizGame - INFO - APP STARTED
+2025-02-27 21:35:45,015 - MathQuizGame - INFO - Service 'Math Quiz Game' has started!
+2025-02-27 21:36:21,890 - MathQuizGame - INFO - User action: Akbar requested a new question
+2025-02-27 21:36:24,236 - MathQuizGame - INFO - User action: Akbar requested a new question
+2025-02-27 21:36:57,497 - MathQuizGame - INFO - Service 'Math Quiz Game' has stopped!
+2025-02-27 21:44:45,483 - MathQuizGame - INFO - APP STARTED
+2025-02-27 21:44:45,487 - MathQuizGame - INFO - Service 'Math Quiz Game' has started!
+2025-02-27 21:45:09,668 - MathQuizGame - INFO - User action: Akbar checked status of Hint
+2025-02-27 21:45:09,668 - MathQuizGame - INFO - User action: Checked item status for Akbar: 1 Hint(s) owned
+2025-02-27 21:45:35,177 - MathQuizGame - INFO - User action: Akbar attempted to use Hint
+2025-02-27 21:45:35,177 - MathQuizGame - INFO - User action: Akbar used a Hint: Hint for next question: Focus on basic arithmetic operations (+, -, *, /, **, %, //)!
+2025-02-27 21:46:06,800 - MathQuizGame - INFO - Service 'Math Quiz Game' has stopped!
+2025-02-27 21:46:08,358 - MathQuizGame - INFO - APP STARTED
+2025-02-27 21:46:08,361 - MathQuizGame - INFO - Service 'Math Quiz Game' has started!
+2025-02-27 21:46:29,546 - MathQuizGame - INFO - User action: Akbar requested a new question
+2025-02-27 21:46:29,546 - MathQuizGame - INFO - User action: Akbar generated question q1: 42 - 11
+2025-02-27 21:46:58,804 - MathQuizGame - INFO - User action: Akbar submitted answer for question q1
+2025-02-27 21:46:58,804 - MathQuizGame - INFO - User action: Correct answer for Akbar. New points: 235
+2025-02-27 21:47:11,281 - MathQuizGame - INFO - User action: Akbar requested stats
+2025-02-27 21:47:11,282 - MathQuizGame - INFO - User action: Retrieved stats for Akbar

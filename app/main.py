@@ -6,7 +6,6 @@ app = FastAPI(title="MathQuizGame")
 
 logger.info("APP STARTED")
 
-
 app.include_router(game.router, prefix="/quiz", tags=["Quiz"])
 app.include_router(shop.router, prefix="/shop", tags=["Shop"])
 
