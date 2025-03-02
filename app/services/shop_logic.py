@@ -3,7 +3,7 @@ import logging
 from typing import Dict, Any, Optional
 from cfg.logger import logger
 
-SHOP_ITEMS_FILE = "data/shop_items.json"
+SHOP_ITEMS_FILE = "data/items.json"
 USERS_FILE = "data/users.json"
 
 SHOP_ITEMS = {
