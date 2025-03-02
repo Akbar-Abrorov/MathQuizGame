@@ -1,11 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Akbar"
-        "points": 225,
+        "name": "Akbar",
+        "points": 245,
         "items": {
-            "hint": 1,
-            "Hint": 1
+            "Hint": 0,
+            "Double Points": 0
+        },
+        "double_points_active": false,
+        "questions": {
+            "q1": "42 - 11",
+            "q2": "40 / 10"
+        },
+        "answers": {
+            "q1": {
+                "answer": 31.0,
+                "correct": true
+            },
+            "q2": {
+                "answer": 4.0,
+                "correct": true
+            }
         }
+    },
+    {
+        "id": 2,
+        "name": "Ulugbek",
+        "points": 150,
+        "items": {
+            "Hint": 0,
+            "Double Points": 1
+        },
+        "double_points_active": false,
+        "questions": {},
+        "answers": {}
     }
 ]

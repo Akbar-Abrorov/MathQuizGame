@@ -1,4 +1,4 @@
-[
-    {"id": 1, "name": "Hint", "price": 50},
-    {"id": 2, "name": "Extra Time", "price": 100}
-]
+{
+    "Hint": {"price": 30, "effect": "Gives a hint for the next question"},
+    "Double Points": {"price": 50, "effect": "Doubles points for the next correct answer"}
+}

@@ -2,11 +2,8 @@ import logging
 
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('math_quiz_game.log'),
-        logging.StreamHandler()
-    ]
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    filename='math_quiz_game.log'
 )
 
-logger = logging.getLogger("Math_Game")
+logger = logging.getLogger('MathQuizGame')
