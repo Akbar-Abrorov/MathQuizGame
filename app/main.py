@@ -2,10 +2,10 @@ from contextlib import asynccontextmanager
 import uvicorn
 
 from fastapi import FastAPI
-from app.routers import game, shop
+from app.api_v1 import router as router_v1
 from cfg.logger import logger
 from models import Base,db_helper
-from cfg.data_base import settings
+from cfg import data_base
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -17,8 +17,7 @@ app = FastAPI(title="MathQuizGame",lifespan=lifespan)
 
 logger.info("APP STARTED")
 
-app.include_router(game.router, prefix="/quiz", tags=["Quiz"])
-app.include_router(shop.router, prefix="/shop", tags=["Shop"])
+app.include_router(router=router_v1, prefix=data_base.settings.api_v1_prefix)
 
 @app.on_event("startup")
 def startup_event():
