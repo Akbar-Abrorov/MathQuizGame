@@ -15,6 +15,7 @@ async def lifespan(app: FastAPI):
     yield
 app = FastAPI(title="MathQuizGame",lifespan=lifespan)
 
+#hello
 logger.info("APP STARTED")
 
 app.include_router(router=router_v1, prefix=data_base.settings.api_v1_prefix)
